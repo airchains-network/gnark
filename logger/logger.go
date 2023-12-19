@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/consensys/gnark/debug"
+	"github.com/airchains-network/gnark/debug"
 	"github.com/rs/zerolog"
 )
 

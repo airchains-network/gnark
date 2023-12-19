@@ -3,18 +3,18 @@ package std
 import (
 	"sync"
 
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_emulated"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls12377"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls24315"
-	"github.com/consensys/gnark/std/evmprecompiles"
-	"github.com/consensys/gnark/std/internal/logderivarg"
-	"github.com/consensys/gnark/std/math/bits"
-	"github.com/consensys/gnark/std/math/bitslice"
-	"github.com/consensys/gnark/std/math/cmp"
-	"github.com/consensys/gnark/std/math/emulated"
-	"github.com/consensys/gnark/std/rangecheck"
-	"github.com/consensys/gnark/std/selector"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/std/algebra/emulated/sw_emulated"
+	"github.com/airchains-network/gnark/std/algebra/native/sw_bls12377"
+	"github.com/airchains-network/gnark/std/algebra/native/sw_bls24315"
+	"github.com/airchains-network/gnark/std/evmprecompiles"
+	"github.com/airchains-network/gnark/std/internal/logderivarg"
+	"github.com/airchains-network/gnark/std/math/bits"
+	"github.com/airchains-network/gnark/std/math/bitslice"
+	"github.com/airchains-network/gnark/std/math/cmp"
+	"github.com/airchains-network/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/std/rangecheck"
+	"github.com/airchains-network/gnark/std/selector"
 )
 
 var registerOnce sync.Once

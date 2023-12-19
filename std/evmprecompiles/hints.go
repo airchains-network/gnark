@@ -5,9 +5,9 @@ import (
 	"math/big"
 
 	"github.com/consensys/gnark-crypto/ecc/secp256k1/ecdsa"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/math/emulated"
 )
 
 func init() {

@@ -19,13 +19,13 @@ package mpcsetup
 import (
 	curve "github.com/consensys/gnark-crypto/ecc/bn254"
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr"
-	cs "github.com/consensys/gnark/constraint/bn254"
+	cs "github.com/airchains-network/gnark/constraint/bn254"
 	"testing"
 
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	"github.com/consensys/gnark/std/hash/mimc"
+	"github.com/airchains-network/gnark/backend/groth16"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/cs/r1cs"
+	"github.com/airchains-network/gnark/std/hash/mimc"
 	"github.com/stretchr/testify/require"
 
 	native_mimc "github.com/consensys/gnark-crypto/ecc/bn254/fr/mimc"

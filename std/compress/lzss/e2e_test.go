@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/frontend"
-	test_vector_utils "github.com/consensys/gnark/std/utils/test_vectors_utils"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/frontend"
+	test_vector_utils "github.com/airchains-network/gnark/std/utils/test_vectors_utils"
+	"github.com/airchains-network/gnark/test"
 	"github.com/stretchr/testify/assert"
 )
 

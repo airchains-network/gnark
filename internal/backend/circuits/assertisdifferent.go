@@ -1,7 +1,7 @@
 package circuits
 
 import (
-	"github.com/consensys/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend"
 )
 
 type assertIsDifferentCircuit struct {

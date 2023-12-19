@@ -6,9 +6,9 @@ import (
 	"math/big"
 
 	bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/emulated/fields_bw6761"
-	"github.com/consensys/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/algebra/emulated/fields_bw6761"
+	"github.com/airchains-network/gnark/std/math/emulated"
 )
 
 type Pairing struct {

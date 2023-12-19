@@ -21,19 +21,19 @@ import (
 	"math/bits"
 	"runtime"
 
-	"github.com/consensys/gnark/backend/witness"
+	"github.com/airchains-network/gnark/backend/witness"
 
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr"
 
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr/fft"
 
-	cs "github.com/consensys/gnark/constraint/bn254"
+	cs "github.com/airchains-network/gnark/constraint/bn254"
 
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr/fri"
 
 	fiatshamir "github.com/consensys/gnark-crypto/fiat-shamir"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/internal/utils"
 )
 
 type Proof struct {

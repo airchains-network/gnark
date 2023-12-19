@@ -24,19 +24,19 @@ import (
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/fft"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/hash_to_field"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/pedersen"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/groth16/internal"
-	"github.com/consensys/gnark/backend/witness"
-	"github.com/consensys/gnark/constraint"
-	cs "github.com/consensys/gnark/constraint/bls12-381"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/internal/utils"
-	"github.com/consensys/gnark/logger"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/backend/groth16/internal"
+	"github.com/airchains-network/gnark/backend/witness"
+	"github.com/airchains-network/gnark/constraint"
+	cs "github.com/airchains-network/gnark/constraint/bls12-381"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/internal/utils"
+	"github.com/airchains-network/gnark/logger"
 	"math/big"
 	"runtime"
 	"time"
 
-	fcs "github.com/consensys/gnark/frontend/cs"
+	fcs "github.com/airchains-network/gnark/frontend/cs"
 )
 
 // Proof represents a Groth16 proof that was encoded with a ProvingKey and can be verified

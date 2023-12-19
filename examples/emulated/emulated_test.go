@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/std"
-	"github.com/consensys/gnark/std/math/emulated"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/std"
+	"github.com/airchains-network/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/test"
 )
 
 func TestEmulatedArithmetic(t *testing.T) {

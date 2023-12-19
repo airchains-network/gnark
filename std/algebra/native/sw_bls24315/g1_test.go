@@ -23,9 +23,9 @@ import (
 	"github.com/consensys/gnark-crypto/ecc"
 	"github.com/consensys/gnark-crypto/ecc/bls24-315/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls24-315/fr"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/math/emulated"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/test"
 
 	bls24315 "github.com/consensys/gnark-crypto/ecc/bls24-315"
 )

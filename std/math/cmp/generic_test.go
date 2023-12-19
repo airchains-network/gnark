@@ -2,9 +2,9 @@ package cmp
 
 import (
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/math/bits"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/math/bits"
+	"github.com/airchains-network/gnark/test"
 	"math/big"
 	"testing"
 )

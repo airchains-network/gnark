@@ -3,8 +3,8 @@ package fri
 import (
 	"math/big"
 
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
 )
 
 // exp helper function that returns x^{e}

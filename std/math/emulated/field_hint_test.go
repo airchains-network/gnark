@@ -6,12 +6,12 @@ import (
 
 	"github.com/consensys/gnark-crypto/ecc"
 	"github.com/consensys/gnark-crypto/ecc/bn254/fr"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	"github.com/consensys/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/backend/groth16"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/cs/r1cs"
+	"github.com/airchains-network/gnark/std/math/emulated"
 )
 
 // HintExample is a hint for field emulation which returns the division of the

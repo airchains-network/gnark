@@ -18,17 +18,17 @@ package cs_test
 
 import (
 	"bytes"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	"github.com/consensys/gnark/frontend/cs/scs"
-	"github.com/consensys/gnark/internal/backend/circuits"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/cs/r1cs"
+	"github.com/airchains-network/gnark/frontend/cs/scs"
+	"github.com/airchains-network/gnark/internal/backend/circuits"
 	"reflect"
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	cs "github.com/consensys/gnark/constraint/bw6-761"
+	cs "github.com/airchains-network/gnark/constraint/bw6-761"
 
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr"
 )

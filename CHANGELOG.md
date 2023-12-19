@@ -11,16 +11,16 @@
 - update to latest gnark-crypto
 - update to latest gnark-crypto
 - make linter happy remove deprecated call
-- updated to feat/commitment branch on gnark-crypto ([#408](https://github.com/consensys/gnark/issues/408))
+- updated to feat/commitment branch on gnark-crypto ([#408](https://github.com/airchains-network/gnark/issues/408))
 - test only on go 1.18 for now
 - re-ran go generate
-- update CI ([#318](https://github.com/consensys/gnark/issues/318))
+- update CI ([#318](https://github.com/airchains-network/gnark/issues/318))
 
 ### Ci
-- fix slack integration + adds golanglint-ci ([#316](https://github.com/consensys/gnark/issues/316))
+- fix slack integration + adds golanglint-ci ([#316](https://github.com/airchains-network/gnark/issues/316))
 
 ### Clean
-- remove deadcode and kill `api.Tag` and `api.Counter` ([#353](https://github.com/consensys/gnark/issues/353))
+- remove deadcode and kill `api.Tag` and `api.Counter` ([#353](https://github.com/airchains-network/gnark/issues/353))
 
 ### Docs
 - updated README.md
@@ -33,9 +33,9 @@
 - add method docs
 
 ### Feat
-- added serialization header to CS and debug info to all constraints with -tags=debug ([#347](https://github.com/consensys/gnark/issues/347))
+- added serialization header to CS and debug info to all constraints with -tags=debug ([#347](https://github.com/airchains-network/gnark/issues/347))
 - checkpoint 3, computations are correct, some commitments are failing
-- add cs.GetConstraint with examples, and pretty printer helpers ([#452](https://github.com/consensys/gnark/issues/452))
+- add cs.GetConstraint with examples, and pretty printer helpers ([#452](https://github.com/airchains-network/gnark/issues/452))
 - cleaned plonk constraints evaluation
 - code gen + cleaned code
 - update gnark version to v0.8.0
@@ -44,29 +44,29 @@
 - Evalute is used instead of manually evaluatin
 - removed printings
 - fixed verifier
-- add automatic non-native witness element limb constraining ([#446](https://github.com/consensys/gnark/issues/446))
+- add automatic non-native witness element limb constraining ([#446](https://github.com/airchains-network/gnark/issues/446))
 - cleaned code
 - addition of missing commitments and openings in vk and pk
 - checkpoint 2
 - checkpoint refactor
-- add ECDSA signature verification ([#372](https://github.com/consensys/gnark/issues/372))
-- adds `api.MAC(..)` ([#427](https://github.com/consensys/gnark/issues/427))
-- keccak-f permutation function ([#401](https://github.com/consensys/gnark/issues/401))
-- add debug.SymbolTable into constraint system for storage efficiency of debug info ([#421](https://github.com/consensys/gnark/issues/421))
-- split field in field emulation into Field and FieldAPI ([#395](https://github.com/consensys/gnark/issues/395))
+- add ECDSA signature verification ([#372](https://github.com/airchains-network/gnark/issues/372))
+- adds `api.MAC(..)` ([#427](https://github.com/airchains-network/gnark/issues/427))
+- keccak-f permutation function ([#401](https://github.com/airchains-network/gnark/issues/401))
+- add debug.SymbolTable into constraint system for storage efficiency of debug info ([#421](https://github.com/airchains-network/gnark/issues/421))
+- split field in field emulation into Field and FieldAPI ([#395](https://github.com/airchains-network/gnark/issues/395))
 - testing options and clearer errors
-- add linear expression packing for R1CS ([#418](https://github.com/consensys/gnark/issues/418))
+- add linear expression packing for R1CS ([#418](https://github.com/airchains-network/gnark/issues/418))
 - merge develop
-- add inherit circuit tag ([#387](https://github.com/consensys/gnark/issues/387))
+- add inherit circuit tag ([#387](https://github.com/airchains-network/gnark/issues/387))
 - add gnark tags
 - gkr verifier is NOT a witness object
 - some sumcheck experiments
 - poly functions and some tests
 - gkr verifier
 - some sumcheck experiments
-- replaced full bit decomposition by rshift in emulated/assertIsEqual ([#354](https://github.com/consensys/gnark/issues/354))
+- replaced full bit decomposition by rshift in emulated/assertIsEqual ([#354](https://github.com/airchains-network/gnark/issues/354))
 - cleaned code
-- add test.NoFuzzing() testing option ([#296](https://github.com/consensys/gnark/issues/296))
+- add test.NoFuzzing() testing option ([#296](https://github.com/airchains-network/gnark/issues/296))
 - map in snark
 - add fake API for emulated arithmetics
 - split add/mul/sub into cond and op
@@ -100,23 +100,23 @@
 - **std:** KZG verifier gadget bls24-315 (with static witness)
 
 ### Fix
-- mark and output boolean ([#459](https://github.com/consensys/gnark/issues/459))
+- mark and output boolean ([#459](https://github.com/airchains-network/gnark/issues/459))
 - mimc pow7
 - prover-verifier work with blinding
-- handle recursive hints in level builder ([#441](https://github.com/consensys/gnark/issues/441))
+- handle recursive hints in level builder ([#441](https://github.com/airchains-network/gnark/issues/441))
 - verifier working \o/
-- pack full limbs for quotient ([#439](https://github.com/consensys/gnark/issues/439))
-- add shortcut for const input in MulConst ([#438](https://github.com/consensys/gnark/issues/438))
-- closes [#434](https://github.com/consensys/gnark/issues/434) returns a copy of the input slice when filtering groth16+commitment ([#435](https://github.com/consensys/gnark/issues/435))
+- pack full limbs for quotient ([#439](https://github.com/airchains-network/gnark/issues/439))
+- add shortcut for const input in MulConst ([#438](https://github.com/airchains-network/gnark/issues/438))
+- closes [#434](https://github.com/airchains-network/gnark/issues/434) returns a copy of the input slice when filtering groth16+commitment ([#435](https://github.com/airchains-network/gnark/issues/435))
 - fix previous commit
-- closes [#400](https://github.com/consensys/gnark/issues/400) path trimming correct, example with unix path separators
+- closes [#400](https://github.com/airchains-network/gnark/issues/400) path trimming correct, example with unix path separators
 - tests expected to fail
-- engine.Println to take strings ([#419](https://github.com/consensys/gnark/issues/419))
+- engine.Println to take strings ([#419](https://github.com/airchains-network/gnark/issues/419))
 - verifier input building
 - idiotic load circuit bug
 - update test vector proofs to proper size, some bugs
-- fix [#400](https://github.com/consensys/gnark/issues/400) with trim path handling in profile report ([#409](https://github.com/consensys/gnark/issues/409))
-- fixed Lagrange polynomials construction ([#389](https://github.com/consensys/gnark/issues/389))
+- fix [#400](https://github.com/airchains-network/gnark/issues/400) with trim path handling in profile report ([#409](https://github.com/airchains-network/gnark/issues/409))
+- fixed Lagrange polynomials construction ([#389](https://github.com/airchains-network/gnark/issues/389))
 - staticcheck
 - multi-fan-out input bug
 - update test vectors, hash finalevalproofs
@@ -125,13 +125,13 @@
 - TestTranscript works
 - Xor(var, constant) in scs corrected
 - simple sumcheck test passes
-- IsZero throws panic on ([#367](https://github.com/consensys/gnark/issues/367))
-- fixes [#359](https://github.com/consensys/gnark/issues/359) missing fields in plonk serialized format ([#364](https://github.com/consensys/gnark/issues/364))
+- IsZero throws panic on ([#367](https://github.com/airchains-network/gnark/issues/367))
+- fixes [#359](https://github.com/airchains-network/gnark/issues/359) missing fields in plonk serialized format ([#364](https://github.com/airchains-network/gnark/issues/364))
 - Sumcheck verifier usable as circuit
 - InterpolateOnRange works even when it doesn't really have to "inerpolate"
 - extra nosec G404 in test file
 - minor typo
-- misspelled ("decsribes" ->  "describes") ([#339](https://github.com/consensys/gnark/issues/339))
+- misspelled ("decsribes" ->  "describes") ([#339](https://github.com/airchains-network/gnark/issues/339))
 - remove leq overwrite
 - reduce element when init from const
 - fixed comments
@@ -168,18 +168,18 @@
 - fixed opening Merkle path
 - fixed vanilla plonk fri
 - removed unused debug function
-- **emulated:** enforce widths of packed limbs ([#368](https://github.com/consensys/gnark/issues/368))
+- **emulated:** enforce widths of packed limbs ([#368](https://github.com/airchains-network/gnark/issues/368))
 - **nonnative:** off by one error
 - **plonk:** fixed generic verifier
 
 ### Fix
-- minor typo ([#360](https://github.com/consensys/gnark/issues/360))
+- minor typo ([#360](https://github.com/airchains-network/gnark/issues/360))
 
 ### Perf
-- more precomputation in plonk/iop ([#471](https://github.com/consensys/gnark/issues/471))
+- more precomputation in plonk/iop ([#471](https://github.com/airchains-network/gnark/issues/471))
 - mimc on bls12-377/fr uses x^17 as a permutation
-- api.IsZero generate less constraints ([#356](https://github.com/consensys/gnark/issues/356))
-- minor improvments to big.Int test engine ([#344](https://github.com/consensys/gnark/issues/344))
+- api.IsZero generate less constraints ([#356](https://github.com/airchains-network/gnark/issues/356))
+- minor improvments to big.Int test engine ([#344](https://github.com/airchains-network/gnark/issues/344))
 - allocate less in test engine
 - remove width enforcement in Reduce()
 - lazy reduction
@@ -190,19 +190,19 @@
 - update to latest gnark crypto
 - keeping up
 - gnark-crypto iop 1
-- clean up witness package, introduces clean `witness.Witness` interface ([#450](https://github.com/consensys/gnark/issues/450))
-- emulated clean up fixes [#448](https://github.com/consensys/gnark/issues/448) ([#449](https://github.com/consensys/gnark/issues/449))
+- clean up witness package, introduces clean `witness.Witness` interface ([#450](https://github.com/airchains-network/gnark/issues/450))
+- emulated clean up fixes [#448](https://github.com/airchains-network/gnark/issues/448) ([#449](https://github.com/airchains-network/gnark/issues/449))
 - reflect gnark-crypto gkr changes, debug pending
-- add constraint package and improve memory management in frontend ([#412](https://github.com/consensys/gnark/issues/412))
+- add constraint package and improve memory management in frontend ([#412](https://github.com/airchains-network/gnark/issues/412))
 - use polynomial package
-- std/math/nonnative -> std/math/emulated ([#345](https://github.com/consensys/gnark/issues/345))
+- std/math/nonnative -> std/math/emulated ([#345](https://github.com/airchains-network/gnark/issues/345))
 - remove in-method reductions
 - use field in schema leaf handler
-- Compile(ecc.ID) -> Compile(field *big.Int) ([#328](https://github.com/consensys/gnark/issues/328))
+- Compile(ecc.ID) -> Compile(field *big.Int) ([#328](https://github.com/airchains-network/gnark/issues/328))
 - VerifyFri -> Verify
 
 ### Refactor
-- remove geth dependency ([#440](https://github.com/consensys/gnark/issues/440))
+- remove geth dependency ([#440](https://github.com/airchains-network/gnark/issues/440))
 
 ### Style
 - clean up unused functions
@@ -245,7 +245,7 @@
 - add Goldilocks tests
 - add fake API tests
 - bench kzg verifier with plonk
-- add test/solver_test.go ([#329](https://github.com/consensys/gnark/issues/329))
+- add test/solver_test.go ([#329](https://github.com/airchains-network/gnark/issues/329))
 - binary composition test
 - implement lookup2 test
 - implement constant test
@@ -254,22 +254,22 @@
 - implement select test
 
 ### Pull Requests
-- Merge pull request [#469](https://github.com/consensys/gnark/issues/469) from ConsenSys/fix/mimc-pow7
-- Merge pull request [#451](https://github.com/consensys/gnark/issues/451) from ConsenSys/feat/iop_refactor
-- Merge pull request [#455](https://github.com/consensys/gnark/issues/455) from ConsenSys/develop
-- Merge pull request [#453](https://github.com/consensys/gnark/issues/453) from ConsenSys/mimx/nb-rounds-bls12377
-- Merge pull request [#393](https://github.com/consensys/gnark/issues/393) from ConsenSys/feat/gkr
-- Merge pull request [#361](https://github.com/consensys/gnark/issues/361) from ConsenSys/feat/polynomial
-- Merge pull request [#363](https://github.com/consensys/gnark/issues/363) from ConsenSys/fix/lde-0div
-- Merge pull request [#362](https://github.com/consensys/gnark/issues/362) from ConsenSys/fix/mathrand
-- Merge pull request [#250](https://github.com/consensys/gnark/issues/250) from ConsenSys/feat/plonk_generic
-- Merge pull request [#325](https://github.com/consensys/gnark/issues/325) from ConsenSys/feat/emulated-api
-- Merge pull request [#331](https://github.com/consensys/gnark/issues/331) from ConsenSys/perf/test-engine
-- Merge pull request [#332](https://github.com/consensys/gnark/issues/332) from ConsenSys/refactor/schema-parsing
-- Merge pull request [#334](https://github.com/consensys/gnark/issues/334) from ConsenSys/fix/nonnative-offbyone
-- Merge pull request [#320](https://github.com/consensys/gnark/issues/320) from ConsenSys/perf/nonnative
-- Merge pull request [#307](https://github.com/consensys/gnark/issues/307) from ConsenSys/feat/std/kzg-verifier
-- Merge pull request [#302](https://github.com/consensys/gnark/issues/302) from ConsenSys/feat/nonnative-ff
+- Merge pull request [#469](https://github.com/airchains-network/gnark/issues/469) from ConsenSys/fix/mimc-pow7
+- Merge pull request [#451](https://github.com/airchains-network/gnark/issues/451) from ConsenSys/feat/iop_refactor
+- Merge pull request [#455](https://github.com/airchains-network/gnark/issues/455) from ConsenSys/develop
+- Merge pull request [#453](https://github.com/airchains-network/gnark/issues/453) from ConsenSys/mimx/nb-rounds-bls12377
+- Merge pull request [#393](https://github.com/airchains-network/gnark/issues/393) from ConsenSys/feat/gkr
+- Merge pull request [#361](https://github.com/airchains-network/gnark/issues/361) from ConsenSys/feat/polynomial
+- Merge pull request [#363](https://github.com/airchains-network/gnark/issues/363) from ConsenSys/fix/lde-0div
+- Merge pull request [#362](https://github.com/airchains-network/gnark/issues/362) from ConsenSys/fix/mathrand
+- Merge pull request [#250](https://github.com/airchains-network/gnark/issues/250) from ConsenSys/feat/plonk_generic
+- Merge pull request [#325](https://github.com/airchains-network/gnark/issues/325) from ConsenSys/feat/emulated-api
+- Merge pull request [#331](https://github.com/airchains-network/gnark/issues/331) from ConsenSys/perf/test-engine
+- Merge pull request [#332](https://github.com/airchains-network/gnark/issues/332) from ConsenSys/refactor/schema-parsing
+- Merge pull request [#334](https://github.com/airchains-network/gnark/issues/334) from ConsenSys/fix/nonnative-offbyone
+- Merge pull request [#320](https://github.com/airchains-network/gnark/issues/320) from ConsenSys/perf/nonnative
+- Merge pull request [#307](https://github.com/airchains-network/gnark/issues/307) from ConsenSys/feat/std/kzg-verifier
+- Merge pull request [#302](https://github.com/airchains-network/gnark/issues/302) from ConsenSys/feat/nonnative-ff
 
 
 <a name="v0.7.1"></a>
@@ -280,11 +280,11 @@
 
 ### Ci
 - updated github actions
-- test against go1.17 and go1.18 ([#288](https://github.com/consensys/gnark/issues/288))
+- test against go1.17 and go1.18 ([#288](https://github.com/airchains-network/gnark/issues/288))
 
 ### Clean
-- std/groth16 uses same notation as out-of-circuit groth16 ([#304](https://github.com/consensys/gnark/issues/304))
-- remove PairingContext and Extension objects from api calls in std/.../pairing ([#286](https://github.com/consensys/gnark/issues/286))
+- std/groth16 uses same notation as out-of-circuit groth16 ([#304](https://github.com/airchains-network/gnark/issues/304))
+- remove PairingContext and Extension objects from api calls in std/.../pairing ([#286](https://github.com/airchains-network/gnark/issues/286))
 
 ### Docs
 - added security policy, gnark-announce and twitter link
@@ -298,18 +298,18 @@
 - implement PR suggestions in std/math/bits
 - disable logger in tests by default, unless debug tag present
 - adds std/math/bits/ToNAF
-- added VerifyingKey.Assign methods in std/groth16 ([#306](https://github.com/consensys/gnark/issues/306))
+- added VerifyingKey.Assign methods in std/groth16 ([#306](https://github.com/airchains-network/gnark/issues/306))
 - add gnark/logger
 - remove offset shifts in plonk compile
 - remove post-compile offset id in R1CS builder
 - added internal/stats package
 - hint.NbOuputs should not be used at solve time, only at compile time
 - added ivokub suggestion on logging duration values
-- adds gnark logger. closes [#202](https://github.com/consensys/gnark/issues/202)
-- added ToTernary closes [#269](https://github.com/consensys/gnark/issues/269)
+- adds gnark logger. closes [#202](https://github.com/airchains-network/gnark/issues/202)
+- added ToTernary closes [#269](https://github.com/airchains-network/gnark/issues/269)
 - moved api.FromBinary to std/math/bits
 - add ToBinary in std/math/bits
-- added std.GetHints for convenience. fixes [#264](https://github.com/consensys/gnark/issues/264). error message when hint is missing now has hint name
+- added std.GetHints for convenience. fixes [#264](https://github.com/airchains-network/gnark/issues/264). error message when hint is missing now has hint name
 - added NBits hint
 - make nboutputs of a hint explicit at compile time
 - **std:** added AssertIsTrit
@@ -319,11 +319,11 @@
 - fix previous commit
 - err instead of panic when recursively solving hints
 - add whitespace between vars in test.Println
-- closes [#293](https://github.com/consensys/gnark/issues/293) and enables recursive hints solving
+- closes [#293](https://github.com/airchains-network/gnark/issues/293) and enables recursive hints solving
 - replace stats snippet signature with newVariable() instead of fixed variable
 - restored logger format
 - re generated stats
-- fixes [#266](https://github.com/consensys/gnark/issues/266) by adding constant path in Lookup2 and Select
+- fixes [#266](https://github.com/airchains-network/gnark/issues/266) by adding constant path in Lookup2 and Select
 - incorrect handling of nbBits == 1 in api.ToBinary
 - gosec errors
 - uncomment fuzz part of test
@@ -340,7 +340,7 @@
 - delete dead code (TripleMillerLoop)
 - std/pairing have more consistent apis
 - std/pairing bls12377 api more coherent
-- remove StaticHint wrapper, log duplicate hints ([#289](https://github.com/consensys/gnark/issues/289))
+- remove StaticHint wrapper, log duplicate hints ([#289](https://github.com/airchains-network/gnark/issues/289))
 - backend.WithOutput -> backend.WithCircuitLogger
 - remove all internal circuits from stats, keep important snippets only
 - move circuit_stats_test.go into internal/stats
@@ -371,23 +371,23 @@
 - code cleaning
 
 ### Test
-- add failing test for [#293](https://github.com/consensys/gnark/issues/293)
+- add failing test for [#293](https://github.com/airchains-network/gnark/issues/293)
 
 ### Pull Requests
-- Merge pull request [#298](https://github.com/consensys/gnark/issues/298) from ConsenSys/fix/hint-panic
-- Merge pull request [#295](https://github.com/consensys/gnark/issues/295) from ConsenSys/fix/test-println
-- Merge pull request [#294](https://github.com/consensys/gnark/issues/294) from ConsenSys/fix/recursivehhints
-- Merge pull request [#291](https://github.com/consensys/gnark/issues/291) from ConsenSys/refactor/std/pairing
-- Merge pull request [#281](https://github.com/consensys/gnark/issues/281) from ConsenSys/feat/logger
-- Merge pull request [#280](https://github.com/consensys/gnark/issues/280) from ConsenSys/simplify-r1cs-compile
-- Merge pull request [#279](https://github.com/consensys/gnark/issues/279) from ConsenSys/feat/statistics
-- Merge pull request [#276](https://github.com/consensys/gnark/issues/276) from ConsenSys/feat-math-bits
-- Merge pull request [#278](https://github.com/consensys/gnark/issues/278) from ConsenSys/perf-constant-lookup2
-- Merge pull request [#272](https://github.com/consensys/gnark/issues/272) from ConsenSys/refactor-hint
-- Merge pull request [#275](https://github.com/consensys/gnark/issues/275) from ConsenSys/refactor-compiler-builder
-- Merge pull request [#271](https://github.com/consensys/gnark/issues/271) from ConsenSys/refactor-compiled
-- Merge pull request [#267](https://github.com/consensys/gnark/issues/267) from ConsenSys/perf/tEd-add
-- Merge pull request [#265](https://github.com/consensys/gnark/issues/265) from ConsenSys/perf/SW-constScalarMul
+- Merge pull request [#298](https://github.com/airchains-network/gnark/issues/298) from ConsenSys/fix/hint-panic
+- Merge pull request [#295](https://github.com/airchains-network/gnark/issues/295) from ConsenSys/fix/test-println
+- Merge pull request [#294](https://github.com/airchains-network/gnark/issues/294) from ConsenSys/fix/recursivehhints
+- Merge pull request [#291](https://github.com/airchains-network/gnark/issues/291) from ConsenSys/refactor/std/pairing
+- Merge pull request [#281](https://github.com/airchains-network/gnark/issues/281) from ConsenSys/feat/logger
+- Merge pull request [#280](https://github.com/airchains-network/gnark/issues/280) from ConsenSys/simplify-r1cs-compile
+- Merge pull request [#279](https://github.com/airchains-network/gnark/issues/279) from ConsenSys/feat/statistics
+- Merge pull request [#276](https://github.com/airchains-network/gnark/issues/276) from ConsenSys/feat-math-bits
+- Merge pull request [#278](https://github.com/airchains-network/gnark/issues/278) from ConsenSys/perf-constant-lookup2
+- Merge pull request [#272](https://github.com/airchains-network/gnark/issues/272) from ConsenSys/refactor-hint
+- Merge pull request [#275](https://github.com/airchains-network/gnark/issues/275) from ConsenSys/refactor-compiler-builder
+- Merge pull request [#271](https://github.com/airchains-network/gnark/issues/271) from ConsenSys/refactor-compiled
+- Merge pull request [#267](https://github.com/airchains-network/gnark/issues/267) from ConsenSys/perf/tEd-add
+- Merge pull request [#265](https://github.com/airchains-network/gnark/issues/265) from ConsenSys/perf/SW-constScalarMul
 
 
 <a name="v0.6.5"></a>
@@ -404,10 +404,10 @@
 
 ### Ci
 - updated github actions
-- test against go1.17 and go1.18 ([#288](https://github.com/consensys/gnark/issues/288))
+- test against go1.17 and go1.18 ([#288](https://github.com/airchains-network/gnark/issues/288))
 
 ### Clean
-- remove PairingContext and Extension objects from api calls in std/.../pairing ([#286](https://github.com/consensys/gnark/issues/286))
+- remove PairingContext and Extension objects from api calls in std/.../pairing ([#286](https://github.com/airchains-network/gnark/issues/286))
 
 ### Docs
 - updated README.md with same warning as in docs
@@ -423,25 +423,25 @@
 - hint.NbOuputs should not be used at solve time, only at compile time
 - remove post-compile offset id in R1CS builder
 - added internal/stats package
-- added ToTernary closes [#269](https://github.com/consensys/gnark/issues/269)
-- adds gnark logger. closes [#202](https://github.com/consensys/gnark/issues/202)
+- added ToTernary closes [#269](https://github.com/airchains-network/gnark/issues/269)
+- adds gnark logger. closes [#202](https://github.com/airchains-network/gnark/issues/202)
 - disable logger in tests by default, unless debug tag present
 - implement PR suggestions in std/math/bits
 - moved api.FromBinary to std/math/bits
 - add ToBinary in std/math/bits
-- added std.GetHints for convenience. fixes [#264](https://github.com/consensys/gnark/issues/264). error message when hint is missing now has hint name
+- added std.GetHints for convenience. fixes [#264](https://github.com/airchains-network/gnark/issues/264). error message when hint is missing now has hint name
 - added NBits hint
 - make nboutputs of a hint explicit at compile time
 - **std:** added AssertIsTrit
 
 ### Fix
 - add whitespace between vars in test.Println
-- closes [#293](https://github.com/consensys/gnark/issues/293) and enables recursive hints solving
+- closes [#293](https://github.com/airchains-network/gnark/issues/293) and enables recursive hints solving
 - replace stats snippet signature with newVariable() instead of fixed variable
 - move init() behind sync.Once. remove verbose option in stats binary
 - re generated stats
 - gosec errors
-- fixes [#266](https://github.com/consensys/gnark/issues/266) by adding constant path in Lookup2 and Select
+- fixes [#266](https://github.com/airchains-network/gnark/issues/266) by adding constant path in Lookup2 and Select
 - uncomment fuzz part of test
 - std.GetHints() return bits.NNAF
 - incorrect handling of nbBits == 1 in api.ToBinary
@@ -456,7 +456,7 @@
 ### Refactor
 - std/pairing have more consistent apis
 - std/pairing bls12377 api more coherent
-- remove StaticHint wrapper, log duplicate hints ([#289](https://github.com/consensys/gnark/issues/289))
+- remove StaticHint wrapper, log duplicate hints ([#289](https://github.com/airchains-network/gnark/issues/289))
 - backend.WithOutput -> backend.WithCircuitLogger
 - remove all internal circuits from stats, keep important snippets only
 - move circuit_stats_test.go into internal/stats
@@ -486,22 +486,22 @@
 - code cleaning
 
 ### Test
-- add failing test for [#293](https://github.com/consensys/gnark/issues/293)
+- add failing test for [#293](https://github.com/airchains-network/gnark/issues/293)
 
 ### Pull Requests
-- Merge pull request [#295](https://github.com/consensys/gnark/issues/295) from ConsenSys/fix/test-println
-- Merge pull request [#294](https://github.com/consensys/gnark/issues/294) from ConsenSys/fix/recursivehhints
-- Merge pull request [#291](https://github.com/consensys/gnark/issues/291) from ConsenSys/refactor/std/pairing
-- Merge pull request [#281](https://github.com/consensys/gnark/issues/281) from ConsenSys/feat/logger
-- Merge pull request [#280](https://github.com/consensys/gnark/issues/280) from ConsenSys/simplify-r1cs-compile
-- Merge pull request [#279](https://github.com/consensys/gnark/issues/279) from ConsenSys/feat/statistics
-- Merge pull request [#276](https://github.com/consensys/gnark/issues/276) from ConsenSys/feat-math-bits
-- Merge pull request [#278](https://github.com/consensys/gnark/issues/278) from ConsenSys/perf-constant-lookup2
-- Merge pull request [#272](https://github.com/consensys/gnark/issues/272) from ConsenSys/refactor-hint
-- Merge pull request [#275](https://github.com/consensys/gnark/issues/275) from ConsenSys/refactor-compiler-builder
-- Merge pull request [#271](https://github.com/consensys/gnark/issues/271) from ConsenSys/refactor-compiled
-- Merge pull request [#267](https://github.com/consensys/gnark/issues/267) from ConsenSys/perf/tEd-add
-- Merge pull request [#265](https://github.com/consensys/gnark/issues/265) from ConsenSys/perf/SW-constScalarMul
+- Merge pull request [#295](https://github.com/airchains-network/gnark/issues/295) from ConsenSys/fix/test-println
+- Merge pull request [#294](https://github.com/airchains-network/gnark/issues/294) from ConsenSys/fix/recursivehhints
+- Merge pull request [#291](https://github.com/airchains-network/gnark/issues/291) from ConsenSys/refactor/std/pairing
+- Merge pull request [#281](https://github.com/airchains-network/gnark/issues/281) from ConsenSys/feat/logger
+- Merge pull request [#280](https://github.com/airchains-network/gnark/issues/280) from ConsenSys/simplify-r1cs-compile
+- Merge pull request [#279](https://github.com/airchains-network/gnark/issues/279) from ConsenSys/feat/statistics
+- Merge pull request [#276](https://github.com/airchains-network/gnark/issues/276) from ConsenSys/feat-math-bits
+- Merge pull request [#278](https://github.com/airchains-network/gnark/issues/278) from ConsenSys/perf-constant-lookup2
+- Merge pull request [#272](https://github.com/airchains-network/gnark/issues/272) from ConsenSys/refactor-hint
+- Merge pull request [#275](https://github.com/airchains-network/gnark/issues/275) from ConsenSys/refactor-compiler-builder
+- Merge pull request [#271](https://github.com/airchains-network/gnark/issues/271) from ConsenSys/refactor-compiled
+- Merge pull request [#267](https://github.com/airchains-network/gnark/issues/267) from ConsenSys/perf/tEd-add
+- Merge pull request [#265](https://github.com/airchains-network/gnark/issues/265) from ConsenSys/perf/SW-constScalarMul
 
 
 <a name="v0.6.4"></a>
@@ -554,10 +554,10 @@
 - **tEd:** test scalarMul for all curves and schemes
 
 ### Pull Requests
-- Merge pull request [#259](https://github.com/consensys/gnark/issues/259) from ConsenSys/perf-parallel-solver
-- Merge pull request [#261](https://github.com/consensys/gnark/issues/261) from ConsenSys/feat/kzg_updated
-- Merge pull request [#257](https://github.com/consensys/gnark/issues/257) from ConsenSys/perf/EdDSA
-- Merge pull request [#253](https://github.com/consensys/gnark/issues/253) from ConsenSys/feat/fft_cosets
+- Merge pull request [#259](https://github.com/airchains-network/gnark/issues/259) from ConsenSys/perf-parallel-solver
+- Merge pull request [#261](https://github.com/airchains-network/gnark/issues/261) from ConsenSys/feat/kzg_updated
+- Merge pull request [#257](https://github.com/airchains-network/gnark/issues/257) from ConsenSys/perf/EdDSA
+- Merge pull request [#253](https://github.com/airchains-network/gnark/issues/253) from ConsenSys/feat/fft_cosets
 
 
 <a name="v0.6.3"></a>
@@ -575,7 +575,7 @@
 - mimc implem corresponds to ethereum implem
 
 ### Fix
-- fixes [#255](https://github.com/consensys/gnark/issues/255) variable visibility inheritance regression
+- fixes [#255](https://github.com/airchains-network/gnark/issues/255) variable visibility inheritance regression
 - mod reduce input in solve with hint when coming from interface
 - counter was set with PLONK backend ID in R1CS
 - fixed conflicts
@@ -593,10 +593,10 @@
 - added r1cs solve benchmark
 
 ### Pull Requests
-- Merge pull request [#256](https://github.com/consensys/gnark/issues/256) from ConsenSys/fix-bug-compile-visibility
-- Merge pull request [#249](https://github.com/consensys/gnark/issues/249) from ConsenSys/perf-ccs-hint
-- Merge pull request [#248](https://github.com/consensys/gnark/issues/248) from ConsenSys/perf-ccs-solver
-- Merge pull request [#247](https://github.com/consensys/gnark/issues/247) from ConsenSys/fix/plonk_cbor
+- Merge pull request [#256](https://github.com/airchains-network/gnark/issues/256) from ConsenSys/fix-bug-compile-visibility
+- Merge pull request [#249](https://github.com/airchains-network/gnark/issues/249) from ConsenSys/perf-ccs-hint
+- Merge pull request [#248](https://github.com/airchains-network/gnark/issues/248) from ConsenSys/perf-ccs-solver
+- Merge pull request [#247](https://github.com/airchains-network/gnark/issues/247) from ConsenSys/fix/plonk_cbor
 
 
 <a name="v0.6.2"></a>
@@ -688,17 +688,17 @@
 - run marshalling tests as subtests
 
 ### Pull Requests
-- Merge pull request [#244](https://github.com/consensys/gnark/issues/244) from ConsenSys/plonk-human-readable
-- Merge pull request [#237](https://github.com/consensys/gnark/issues/237) from ConsenSys/ccs-get-constraints
-- Merge pull request [#233](https://github.com/consensys/gnark/issues/233) from ConsenSys/feat/api_cmp
-- Merge pull request [#235](https://github.com/consensys/gnark/issues/235) from ConsenSys/witness-public-api
-- Merge pull request [#232](https://github.com/consensys/gnark/issues/232) from ConsenSys/cleanup-231-group-options
-- Merge pull request [#230](https://github.com/consensys/gnark/issues/230) from ConsenSys/ccs-schema
-- Merge pull request [#229](https://github.com/consensys/gnark/issues/229) from ConsenSys/ccs-issolved-api
-- Merge pull request [#228](https://github.com/consensys/gnark/issues/228) from ConsenSys/witness-json
-- Merge pull request [#226](https://github.com/consensys/gnark/issues/226) from ConsenSys/feat-circuit-schema
-- Merge pull request [#227](https://github.com/consensys/gnark/issues/227) from ConsenSys/build-update-go1.17
-- Merge pull request [#222](https://github.com/consensys/gnark/issues/222) from ConsenSys/perf/std-sw-glv
+- Merge pull request [#244](https://github.com/airchains-network/gnark/issues/244) from ConsenSys/plonk-human-readable
+- Merge pull request [#237](https://github.com/airchains-network/gnark/issues/237) from ConsenSys/ccs-get-constraints
+- Merge pull request [#233](https://github.com/airchains-network/gnark/issues/233) from ConsenSys/feat/api_cmp
+- Merge pull request [#235](https://github.com/airchains-network/gnark/issues/235) from ConsenSys/witness-public-api
+- Merge pull request [#232](https://github.com/airchains-network/gnark/issues/232) from ConsenSys/cleanup-231-group-options
+- Merge pull request [#230](https://github.com/airchains-network/gnark/issues/230) from ConsenSys/ccs-schema
+- Merge pull request [#229](https://github.com/airchains-network/gnark/issues/229) from ConsenSys/ccs-issolved-api
+- Merge pull request [#228](https://github.com/airchains-network/gnark/issues/228) from ConsenSys/witness-json
+- Merge pull request [#226](https://github.com/airchains-network/gnark/issues/226) from ConsenSys/feat-circuit-schema
+- Merge pull request [#227](https://github.com/airchains-network/gnark/issues/227) from ConsenSys/build-update-go1.17
+- Merge pull request [#222](https://github.com/airchains-network/gnark/issues/222) from ConsenSys/perf/std-sw-glv
 
 
 <a name="v0.6.0"></a>
@@ -719,8 +719,8 @@
 
 ### Feat
 - extended the Add test
-- internal/parser handles interface values and outputs warning when a struct is non adressable [#169](https://github.com/consensys/gnark/issues/169)
-- added explicit warning when parser encounters unadressable struct field [#169](https://github.com/consensys/gnark/issues/169)
+- internal/parser handles interface values and outputs warning when a struct is non adressable [#169](https://github.com/airchains-network/gnark/issues/169)
+- added explicit warning when parser encounters unadressable struct field [#169](https://github.com/airchains-network/gnark/issues/169)
 - addition of test for mul
 - lighter stack trace by default for circuits, more verbose when -tags=debug provided
 - added api.Tag and api.AddCounter to measure number of constraints in portion of circuit
@@ -741,7 +741,7 @@
 - cleaned  frontend/
 - code uses new Compile from compile.go
 - hint inptus LinearExpression -> interface
-- closes [#197](https://github.com/consensys/gnark/issues/197) FromInterface supports uintXX and intXX types
+- closes [#197](https://github.com/airchains-network/gnark/issues/197) FromInterface supports uintXX and intXX types
 - extended add test
 - addition of Compile method on System interface
 - addition of tests in r1cs/
@@ -775,7 +775,7 @@
 - use sr1cs debug representation
 - restored check unconstrained inputs when compiling
 - fixed staticcheck
-- fixes [#168](https://github.com/consensys/gnark/issues/168) adds context to a non-deterministic compilation error in the Assert object
+- fixes [#168](https://github.com/airchains-network/gnark/issues/168) adds context to a non-deterministic compilation error in the Assert object
 - fixed staticheck
 - removed unused file
 - ran go generate
@@ -799,14 +799,14 @@
 - fixed assertIsEqual
 - fixed assertion (AssertIsEqual missing return)
 - fixed AssertIsBoolean in plonk (mul by constant failed)
-- fixes [#169](https://github.com/consensys/gnark/issues/169) ensure frontend.Circuit methods are defined on pointer receiver
+- fixes [#169](https://github.com/airchains-network/gnark/issues/169) ensure frontend.Circuit methods are defined on pointer receiver
 - extended sub test
 - fixed Groth16 integration tests
 - restored bootloader
 - removed Compile() method in engine
 - fixed API missing methods
 - incorrect handling of hints in r1cs solver
-- fixes [#178](https://github.com/consensys/gnark/issues/178) by adding cbor.MaxMapPairs options when reading R1CS
+- fixes [#178](https://github.com/airchains-network/gnark/issues/178) by adding cbor.MaxMapPairs options when reading R1CS
 - merge with develop branch
 - remove deadcode (csfuzz targets)
 - go:generate bw6633 and updated circuit stats
@@ -902,20 +902,20 @@
 - **lookup2:** add integration test
 
 ### Pull Requests
-- Merge pull request [#192](https://github.com/consensys/gnark/issues/192) from ConsenSys/multi-hint
-- Merge pull request [#220](https://github.com/consensys/gnark/issues/220) from ConsenSys/feat-from-interface
-- Merge pull request [#217](https://github.com/consensys/gnark/issues/217) from ConsenSys/fix-internal-compiled
-- Merge pull request [#191](https://github.com/consensys/gnark/issues/191) from ConsenSys/assert-subtests
-- Merge pull request [#200](https://github.com/consensys/gnark/issues/200) from ConsenSys/refactor/frontend
-- Merge pull request [#205](https://github.com/consensys/gnark/issues/205) from ConsenSys/fix/constant-mod-reduction
-- Merge pull request [#186](https://github.com/consensys/gnark/issues/186) from ConsenSys/fix/plonk_constraints
-- Merge pull request [#185](https://github.com/consensys/gnark/issues/185) from ConsenSys/feat/bw6-633
-- Merge pull request [#189](https://github.com/consensys/gnark/issues/189) from ConsenSys/lookup2
-- Merge pull request [#183](https://github.com/consensys/gnark/issues/183) from ivokub/hint-registry
-- Merge pull request [#182](https://github.com/consensys/gnark/issues/182) from ConsenSys/std/pairing
-- Merge pull request [#176](https://github.com/consensys/gnark/issues/176) from ConsenSys/feat-constraint-counter
-- Merge pull request [#180](https://github.com/consensys/gnark/issues/180) from ConsenSys/refactor-variable-interface
-- Merge pull request [#173](https://github.com/consensys/gnark/issues/173) from ConsenSys/feat-debug-tag
+- Merge pull request [#192](https://github.com/airchains-network/gnark/issues/192) from ConsenSys/multi-hint
+- Merge pull request [#220](https://github.com/airchains-network/gnark/issues/220) from ConsenSys/feat-from-interface
+- Merge pull request [#217](https://github.com/airchains-network/gnark/issues/217) from ConsenSys/fix-internal-compiled
+- Merge pull request [#191](https://github.com/airchains-network/gnark/issues/191) from ConsenSys/assert-subtests
+- Merge pull request [#200](https://github.com/airchains-network/gnark/issues/200) from ConsenSys/refactor/frontend
+- Merge pull request [#205](https://github.com/airchains-network/gnark/issues/205) from ConsenSys/fix/constant-mod-reduction
+- Merge pull request [#186](https://github.com/airchains-network/gnark/issues/186) from ConsenSys/fix/plonk_constraints
+- Merge pull request [#185](https://github.com/airchains-network/gnark/issues/185) from ConsenSys/feat/bw6-633
+- Merge pull request [#189](https://github.com/airchains-network/gnark/issues/189) from ConsenSys/lookup2
+- Merge pull request [#183](https://github.com/airchains-network/gnark/issues/183) from ivokub/hint-registry
+- Merge pull request [#182](https://github.com/airchains-network/gnark/issues/182) from ConsenSys/std/pairing
+- Merge pull request [#176](https://github.com/airchains-network/gnark/issues/176) from ConsenSys/feat-constraint-counter
+- Merge pull request [#180](https://github.com/airchains-network/gnark/issues/180) from ConsenSys/refactor-variable-interface
+- Merge pull request [#173](https://github.com/airchains-network/gnark/issues/173) from ConsenSys/feat-debug-tag
 
 
 <a name="v0.5.2"></a>
@@ -950,7 +950,7 @@
 - added UnsafeReadFrom for groth16 Proving and Verifying keys
 - GetKey now returns an ID of a primitive linear expression
 - added DivUnchecked. start factorizing some frontend.API with better Constant cases
-- added post-compile check to ensure all inputs are constrained fixes [#163](https://github.com/consensys/gnark/issues/163)
+- added post-compile check to ensure all inputs are constrained fixes [#163](https://github.com/airchains-network/gnark/issues/163)
 - ignore zero coefficients for variable constraint check
 - added frontend.API interface
 - added fuzzing. div now takes 2 constraints
@@ -963,7 +963,7 @@
 - **std:** add bandersnatch
 
 ### Fix
-- fixes [#155](https://github.com/consensys/gnark/issues/155) slow compiling with plonk frontend
+- fixes [#155](https://github.com/airchains-network/gnark/issues/155) slow compiling with plonk frontend
 - don't check if one wire is constrained
 - restore std/algebra/sw g1ScalarMul test circuit
 - bug in Select when parameters are constant
@@ -1028,16 +1028,16 @@
 - minor adjustements or better fuzzing
 
 ### Pull Requests
-- Merge pull request [#159](https://github.com/consensys/gnark/issues/159) from ConsenSys/std/bandersnatch
-- Merge pull request [#164](https://github.com/consensys/gnark/issues/164) from ConsenSys/perf-scs-compile
-- Merge pull request [#161](https://github.com/consensys/gnark/issues/161) from ConsenSys/test-engine-with-hints
-- Merge pull request [#162](https://github.com/consensys/gnark/issues/162) from ConsenSys/std/pairing
-- Merge pull request [#160](https://github.com/consensys/gnark/issues/160) from ConsenSys/perf-unsafe-decoding
-- Merge pull request [#156](https://github.com/consensys/gnark/issues/156) from ConsenSys/std/twistedEdwards
-- Merge pull request [#151](https://github.com/consensys/gnark/issues/151) from ConsenSys/testable-circuits
-- Merge pull request [#153](https://github.com/consensys/gnark/issues/153) from ConsenSys/fix/plonk_constraints_blowup
-- Merge pull request [#146](https://github.com/consensys/gnark/issues/146) from ConsenSys/feat/ml-snark-pairing
-- Merge pull request [#148](https://github.com/consensys/gnark/issues/148) from ConsenSys/perf-range-check
+- Merge pull request [#159](https://github.com/airchains-network/gnark/issues/159) from ConsenSys/std/bandersnatch
+- Merge pull request [#164](https://github.com/airchains-network/gnark/issues/164) from ConsenSys/perf-scs-compile
+- Merge pull request [#161](https://github.com/airchains-network/gnark/issues/161) from ConsenSys/test-engine-with-hints
+- Merge pull request [#162](https://github.com/airchains-network/gnark/issues/162) from ConsenSys/std/pairing
+- Merge pull request [#160](https://github.com/airchains-network/gnark/issues/160) from ConsenSys/perf-unsafe-decoding
+- Merge pull request [#156](https://github.com/airchains-network/gnark/issues/156) from ConsenSys/std/twistedEdwards
+- Merge pull request [#151](https://github.com/airchains-network/gnark/issues/151) from ConsenSys/testable-circuits
+- Merge pull request [#153](https://github.com/airchains-network/gnark/issues/153) from ConsenSys/fix/plonk_constraints_blowup
+- Merge pull request [#146](https://github.com/airchains-network/gnark/issues/146) from ConsenSys/feat/ml-snark-pairing
+- Merge pull request [#148](https://github.com/airchains-network/gnark/issues/148) from ConsenSys/perf-range-check
 
 
 <a name="v0.5.1"></a>
@@ -1055,7 +1055,7 @@
 ### Feat
 - added ToHTML on R1CS
 - cs.Println and debugInfo supported in groth16 and plonk
-- add witness reconstruction methods. closes [#135](https://github.com/consensys/gnark/issues/135)
+- add witness reconstruction methods. closes [#135](https://github.com/airchains-network/gnark/issues/135)
 - added sanity check in frontend.Compile to ensure constraint validity
 - add witness.WriteSequence to export expected witness sequence
 - hintFunction now returns an error instead of panic
@@ -1069,7 +1069,7 @@
 - debug info is displayed when div by 0 happens (Groth16 only)
 - test circuit for AssertIsDifferent
 - added skelleton for hintFunctions in r1cs
-- IsZero is now implemented with 3 constraints fixes [#132](https://github.com/consensys/gnark/issues/132)
+- IsZero is now implemented with 3 constraints fixes [#132](https://github.com/airchains-network/gnark/issues/132)
 - **frontend:** added cs.NewHint
 - **groth16:** added dummyInifinty counts for dummySetup accurate sizes generation of pk
 - **plonk:** isZero with advice wire OK, binaryDec NOK
@@ -1080,7 +1080,7 @@
 - hint functions use compiled.Term instead of variable IDs only
 - fix previous fix
 - remove debug stack trace from frontend error
-- ProvingKey marshaling test with infinity flags, fixes [#141](https://github.com/consensys/gnark/issues/141)
+- ProvingKey marshaling test with infinity flags, fixes [#141](https://github.com/airchains-network/gnark/issues/141)
 - return empty slice when R1CS.Solve fails
 - remove references to assertions in html templates
 - sparseR1CS rebuilds hint map when deserializing
@@ -1090,7 +1090,7 @@
 - fix serialization test. ensure we init hints when reading R1CS
 - fixed error msg in Inverse, Div for groth16 fuzzer
 - initialize InfinityX in dummy setup
-- can constraint linear expressions to be boolean fixes [#136](https://github.com/consensys/gnark/issues/136)
+- can constraint linear expressions to be boolean fixes [#136](https://github.com/airchains-network/gnark/issues/136)
 - BinaryDecomposition solving assumes bits are in L, which is fine
 - removed fmt.Println trace in setup
 - **eddsa:** addition of isOnCurve check
@@ -1139,15 +1139,15 @@
 - added circuit statistic non regression tests
 - added plonk path to integration_test.go
 - fix gofuzz compile error
-- added test from [#136](https://github.com/consensys/gnark/issues/136)
+- added test from [#136](https://github.com/airchains-network/gnark/issues/136)
 
 ### Pull Requests
-- Merge pull request [#142](https://github.com/consensys/gnark/issues/142) from ConsenSys/frontend-println-tests
-- Merge pull request [#139](https://github.com/consensys/gnark/issues/139) from ConsenSys/cs-hint
-- Merge pull request [#134](https://github.com/consensys/gnark/issues/134) from ConsenSys/is-zero
-- Merge pull request [#130](https://github.com/consensys/gnark/issues/130) from ConsenSys/groth16-setup-filter-inf
-- Merge pull request [#131](https://github.com/consensys/gnark/issues/131) from ConsenSys/fix/i_128
-- Merge pull request [#129](https://github.com/consensys/gnark/issues/129) from ConsenSys/fix/reduce_constraints_eddsa
+- Merge pull request [#142](https://github.com/airchains-network/gnark/issues/142) from ConsenSys/frontend-println-tests
+- Merge pull request [#139](https://github.com/airchains-network/gnark/issues/139) from ConsenSys/cs-hint
+- Merge pull request [#134](https://github.com/airchains-network/gnark/issues/134) from ConsenSys/is-zero
+- Merge pull request [#130](https://github.com/airchains-network/gnark/issues/130) from ConsenSys/groth16-setup-filter-inf
+- Merge pull request [#131](https://github.com/airchains-network/gnark/issues/131) from ConsenSys/fix/i_128
+- Merge pull request [#129](https://github.com/airchains-network/gnark/issues/129) from ConsenSys/fix/reduce_constraints_eddsa
 
 
 <a name="v0.5.0"></a>
@@ -1162,7 +1162,7 @@
 - updated to msm-cpus branh of gnark-crypto
 - updated to latest gnark-crypto
 - updated to latest gnark-crypto
-- updated to latest gnark crypto. fixes [#120](https://github.com/consensys/gnark/issues/120)
+- updated to latest gnark crypto. fixes [#120](https://github.com/airchains-network/gnark/issues/120)
 - updated to latest gnark-crypto
 - updated to latest gnark-crypto
 - run go mod tidy
@@ -1218,7 +1218,7 @@
 - added NewCS and NewPublicData on plonk package, with io.ReaderFrom and io.WriterTo unimplemented interfaces
 - blind of a, b, c OK for bn254
 - added reference benchmarks for plonk
-- added NbG1 and NbG2 apis on groth16 Proving and Verifying keys closes [#116](https://github.com/consensys/gnark/issues/116)
+- added NbG1 and NbG2 apis on groth16 Proving and Verifying keys closes [#116](https://github.com/airchains-network/gnark/issues/116)
 - call stack displayed when AssertIsEqual fails
 - gnarkd circuit data structure extension to support both groth16 and plonk
 - added PublicRaw marhsal methods, ignoring KZG for now
@@ -1249,15 +1249,15 @@
 - fixed conflicts
 - restored benchmark/main.go
 - avoid code gen for bw633 until feat/bw633 is merged
-- invalid gnark struct tag options return error at compile time fixes [#111](https://github.com/consensys/gnark/issues/111)
+- invalid gnark struct tag options return error at compile time fixes [#111](https://github.com/airchains-network/gnark/issues/111)
 - kzg srs size +3
-- r1cs compilation is deterministic, fixes [#90](https://github.com/consensys/gnark/issues/90)
-- fixes [#112](https://github.com/consensys/gnark/issues/112)
+- r1cs compilation is deterministic, fixes [#90](https://github.com/airchains-network/gnark/issues/90)
+- fixes [#112](https://github.com/airchains-network/gnark/issues/112)
 - removed unused error variable
 - make go vet happy
-- use of doubling formula instead of add(x,x) fixes [#114](https://github.com/consensys/gnark/issues/114)
+- use of doubling formula instead of add(x,x) fixes [#114](https://github.com/airchains-network/gnark/issues/114)
 - updated go.mod
-- go.mod points to gnark-crypto[@develop](https://github.com/develop), fixes [#96](https://github.com/consensys/gnark/issues/96)
+- go.mod points to gnark-crypto[@develop](https://github.com/develop), fixes [#96](https://github.com/airchains-network/gnark/issues/96)
 - SetupDummyCommitment calls with Proving and Verifying key in return
 - added BLS24_315 in plonk constructors
 - backend plonk bls24 process error
@@ -1339,13 +1339,13 @@
 - **gnarkd:** gRPC test run in parallel w multiple curves
 
 ### Pull Requests
-- Merge pull request [#126](https://github.com/consensys/gnark/issues/126) from ConsenSys/develop
-- Merge pull request [#124](https://github.com/consensys/gnark/issues/124) from ConsenSys/groth16-stats-pk-vk
-- Merge pull request [#113](https://github.com/consensys/gnark/issues/113) from ConsenSys/feat/gnarkd/plonk
-- Merge pull request [#117](https://github.com/consensys/gnark/issues/117) from ConsenSys/perf/recursive-proof
-- Merge pull request [#108](https://github.com/consensys/gnark/issues/108) from ConsenSys/feat/plonk/clean_verifier
-- Merge pull request [#104](https://github.com/consensys/gnark/issues/104) from ConsenSys/bls24-315
-- Merge pull request [#95](https://github.com/consensys/gnark/issues/95) from ConsenSys/fix/deterministic_r1cs
+- Merge pull request [#126](https://github.com/airchains-network/gnark/issues/126) from ConsenSys/develop
+- Merge pull request [#124](https://github.com/airchains-network/gnark/issues/124) from ConsenSys/groth16-stats-pk-vk
+- Merge pull request [#113](https://github.com/airchains-network/gnark/issues/113) from ConsenSys/feat/gnarkd/plonk
+- Merge pull request [#117](https://github.com/airchains-network/gnark/issues/117) from ConsenSys/perf/recursive-proof
+- Merge pull request [#108](https://github.com/airchains-network/gnark/issues/108) from ConsenSys/feat/plonk/clean_verifier
+- Merge pull request [#104](https://github.com/airchains-network/gnark/issues/104) from ConsenSys/bls24-315
+- Merge pull request [#95](https://github.com/airchains-network/gnark/issues/95) from ConsenSys/fix/deterministic_r1cs
 
 
 <a name="v0.4.0"></a>
@@ -1362,7 +1362,7 @@
 - added integration fuzz test in backend/groth16/fuzz_test.go
 
 ### Doc
-- fixed typo ([#63](https://github.com/consensys/gnark/issues/63)) in README.md
+- fixed typo ([#63](https://github.com/airchains-network/gnark/issues/63)) in README.md
 
 ### Docs
 - preparing v0.4.0 release with new README.md and CHANGELOG.md
@@ -1383,7 +1383,7 @@
 - updated go.mod (points to gnark-crypto[@hotfix](https://github.com/hotfix)/issue_36)
 - support for batch proofs opening at single point
 - **fft:** fft/fftInv now works on abitrary cosets (bounded by maxOrder)
-- **gnarkd:** exposing gnark APIs through RPCs ([#54](https://github.com/consensys/gnark/issues/54))
+- **gnarkd:** exposing gnark APIs through RPCs ([#54](https://github.com/airchains-network/gnark/issues/54))
 - **gnarkd:** added optional TTL in CreateProveJobRequest
 - **gnarkd:** added CancelProveJob method
 - **gnarkd:** added ListProveJob method
@@ -1403,15 +1403,15 @@
 - **plonk:** addition of the permutation in the setup
 - **plonk:** H is split as h1+X**m*h2+X**2m*h3
 - **plonk:** polynomial accumulating partial permutation OK (bn256)
-- **plonk cs:** adding functionality to convert a constraint system to PLONK constraints ([#56](https://github.com/consensys/gnark/issues/56))
+- **plonk cs:** adding functionality to convert a constraint system to PLONK constraints ([#56](https://github.com/airchains-network/gnark/issues/56))
 
 ### Fix
 - cs.Println doesn't trigger panic anymore
 - fixed Groth16 snark circuit according to previous commit
-- inverse and div in frontend had some variable ID offset issues ([#62](https://github.com/consensys/gnark/issues/62))
+- inverse and div in frontend had some variable ID offset issues ([#62](https://github.com/airchains-network/gnark/issues/62))
 - fixed snark circuit for bls377 pairing
 - removed dead function (getOneWire) in cs.go
-- fixes [#88](https://github.com/consensys/gnark/issues/88)
+- fixes [#88](https://github.com/airchains-network/gnark/issues/88)
 - go mod update + fix bad import path with gofuzz build tag
 - bn256 -> bn254
 - updated go.mod to latest gnark-crypto on develop
@@ -1419,7 +1419,7 @@
 - ensure that L.id=M[0].id and R.id=M[1].id in a sparse_r1c
 - added go.sum
 - removed unreachable code piece
-- typo in readme.md fixes [#60](https://github.com/consensys/gnark/issues/60)
+- typo in readme.md fixes [#60](https://github.com/airchains-network/gnark/issues/60)
 - **fft:** fixed the ordering of cosets factor according to DIF/DIT
 - **gnarkd:** ListProveJob test didn't account for other test adding jobs to the queue
 - **plonk:** removed useless multiplication by L in the prover
@@ -1469,19 +1469,19 @@
 - added cs.Println must not panic base test
 
 ### Pull Requests
-- Merge pull request [#94](https://github.com/consensys/gnark/issues/94) from ConsenSys/develop
-- Merge pull request [#93](https://github.com/consensys/gnark/issues/93) from ConsenSys/hotfix/fft_groth16
-- Merge pull request [#92](https://github.com/consensys/gnark/issues/92) from ConsenSys/feat/fiat_shamir
-- Merge pull request [#89](https://github.com/consensys/gnark/issues/89) from ConsenSys/fix/eddsa
-- Merge pull request [#86](https://github.com/consensys/gnark/issues/86) from ConsenSys/docs/godoc
-- Merge pull request [#65](https://github.com/consensys/gnark/issues/65) from ConsenSys/refactor/gnark-crypto
-- Merge pull request [#64](https://github.com/consensys/gnark/issues/64) from ConsenSys/feat/plonk_prover
-- Merge pull request [#58](https://github.com/consensys/gnark/issues/58) from ConsenSys/feat/fft_cosets
-- Merge pull request [#57](https://github.com/consensys/gnark/issues/57) from ConsenSys/feature/gnarkd
-- Merge pull request [#53](https://github.com/consensys/gnark/issues/53) from ConsenSys/serialization/witness
-- Merge pull request [#51](https://github.com/consensys/gnark/issues/51) from ConsenSys/eddsa_cleanup
-- Merge pull request [#46](https://github.com/consensys/gnark/issues/46) from ConsenSys/experimental/solidity
-- Merge pull request [#48](https://github.com/consensys/gnark/issues/48) from ConsenSys/issue_45
+- Merge pull request [#94](https://github.com/airchains-network/gnark/issues/94) from ConsenSys/develop
+- Merge pull request [#93](https://github.com/airchains-network/gnark/issues/93) from ConsenSys/hotfix/fft_groth16
+- Merge pull request [#92](https://github.com/airchains-network/gnark/issues/92) from ConsenSys/feat/fiat_shamir
+- Merge pull request [#89](https://github.com/airchains-network/gnark/issues/89) from ConsenSys/fix/eddsa
+- Merge pull request [#86](https://github.com/airchains-network/gnark/issues/86) from ConsenSys/docs/godoc
+- Merge pull request [#65](https://github.com/airchains-network/gnark/issues/65) from ConsenSys/refactor/gnark-crypto
+- Merge pull request [#64](https://github.com/airchains-network/gnark/issues/64) from ConsenSys/feat/plonk_prover
+- Merge pull request [#58](https://github.com/airchains-network/gnark/issues/58) from ConsenSys/feat/fft_cosets
+- Merge pull request [#57](https://github.com/airchains-network/gnark/issues/57) from ConsenSys/feature/gnarkd
+- Merge pull request [#53](https://github.com/airchains-network/gnark/issues/53) from ConsenSys/serialization/witness
+- Merge pull request [#51](https://github.com/airchains-network/gnark/issues/51) from ConsenSys/eddsa_cleanup
+- Merge pull request [#46](https://github.com/airchains-network/gnark/issues/46) from ConsenSys/experimental/solidity
+- Merge pull request [#48](https://github.com/airchains-network/gnark/issues/48) from ConsenSys/issue_45
 
 
 <a name="v0.3.8"></a>
@@ -1512,9 +1512,9 @@
 - updating to latest gurvy
 
 ### Pull Requests
-- Merge pull request [#42](https://github.com/consensys/gnark/issues/42) from ConsenSys/linearexp
-- Merge pull request [#41](https://github.com/consensys/gnark/issues/41) from AlexandreBelling/feature/cs-nb-constraints
-- Merge pull request [#38](https://github.com/consensys/gnark/issues/38) from ConsenSys/hotfix/discard_secret
+- Merge pull request [#42](https://github.com/airchains-network/gnark/issues/42) from ConsenSys/linearexp
+- Merge pull request [#41](https://github.com/airchains-network/gnark/issues/41) from AlexandreBelling/feature/cs-nb-constraints
+- Merge pull request [#38](https://github.com/airchains-network/gnark/issues/38) from ConsenSys/hotfix/discard_secret
 
 
 <a name="v0.3.5"></a>
@@ -1580,8 +1580,8 @@
 - frontend.NewConstraintSystem is now private. ToR1CS() is private. test circuits moved to internal. gadgets and test circuits use frontend.Compile()
 
 ### Pull Requests
-- Merge pull request [#26](https://github.com/consensys/gnark/issues/26) from ConsenSys/gadget_cleanup
-- Merge pull request [#23](https://github.com/consensys/gnark/issues/23) from ConsenSys/tagless_refactor
+- Merge pull request [#26](https://github.com/airchains-network/gnark/issues/26) from ConsenSys/gadget_cleanup
+- Merge pull request [#23](https://github.com/airchains-network/gnark/issues/23) from ConsenSys/tagless_refactor
 
 
 <a name="v0.2.1-alpha"></a>
@@ -1615,7 +1615,7 @@
 - fix reference to large reference test circuit in groth16
 - remove assertion when checking number of inputs and fix missing curve in testdata path
 - add point check infinity in assert
-- VerifyingKey stores K in Affine, not Jacobian. Fixes [#18](https://github.com/consensys/gnark/issues/18)
+- VerifyingKey stores K in Affine, not Jacobian. Fixes [#18](https://github.com/airchains-network/gnark/issues/18)
 
 ### Integration_test
 - be nice with circleci, do not add large circuit into integration test
@@ -1630,42 +1630,42 @@
 - using big.Int in frontend to avoid build tags
 
 ### Pull Requests
-- Merge pull request [#22](https://github.com/consensys/gnark/issues/22) from ConsenSys/refactor
-- Merge pull request [#21](https://github.com/consensys/gnark/issues/21) from Mikerah/patch-1
+- Merge pull request [#22](https://github.com/airchains-network/gnark/issues/22) from ConsenSys/refactor
+- Merge pull request [#21](https://github.com/airchains-network/gnark/issues/21) from Mikerah/patch-1
 
 
 <a name="v0.1.0-alpha"></a>
 ## v0.1.0-alpha - 2020-03-06
 ### Pull Requests
-- Merge pull request [#11](https://github.com/consensys/gnark/issues/11) from nkeywal/exGadget
-- Merge pull request [#8](https://github.com/consensys/gnark/issues/8) from ConsenSys/internal-curve-tests
-- Merge pull request [#7](https://github.com/consensys/gnark/issues/7) from ConsenSys/develop Fixed [#6](https://github.com/consensys/gnark/issues/6)
-- Merge pull request [#5](https://github.com/consensys/gnark/issues/5) from ConsenSys/go1.14_deps
+- Merge pull request [#11](https://github.com/airchains-network/gnark/issues/11) from nkeywal/exGadget
+- Merge pull request [#8](https://github.com/airchains-network/gnark/issues/8) from ConsenSys/internal-curve-tests
+- Merge pull request [#7](https://github.com/airchains-network/gnark/issues/7) from ConsenSys/develop Fixed [#6](https://github.com/airchains-network/gnark/issues/6)
+- Merge pull request [#5](https://github.com/airchains-network/gnark/issues/5) from ConsenSys/go1.14_deps
 
 
-[Unreleased]: https://github.com/consensys/gnark/compare/v0.8.1...HEAD
-[v0.8.1]: https://github.com/consensys/gnark/compare/v0.8.0...v0.8.1
-[v0.8.0]: https://github.com/consensys/gnark/compare/v0.7.1...v0.8.0
-[v0.7.1]: https://github.com/consensys/gnark/compare/v0.6.5...v0.7.1
-[v0.6.5]: https://github.com/consensys/gnark/compare/v0.7.0...v0.6.5
-[v0.7.0]: https://github.com/consensys/gnark/compare/v0.6.4...v0.7.0
-[v0.6.4]: https://github.com/consensys/gnark/compare/v0.6.3...v0.6.4
-[v0.6.3]: https://github.com/consensys/gnark/compare/v0.6.2...v0.6.3
-[v0.6.2]: https://github.com/consensys/gnark/compare/v0.6.1...v0.6.2
-[v0.6.1]: https://github.com/consensys/gnark/compare/v0.6.0...v0.6.1
-[v0.6.0]: https://github.com/consensys/gnark/compare/v0.5.2...v0.6.0
-[v0.5.2]: https://github.com/consensys/gnark/compare/v0.5.1...v0.5.2
-[v0.5.1]: https://github.com/consensys/gnark/compare/v0.5.0...v0.5.1
-[v0.5.0]: https://github.com/consensys/gnark/compare/v0.4.0...v0.5.0
-[v0.4.0]: https://github.com/consensys/gnark/compare/v0.3.8...v0.4.0
-[v0.3.8]: https://github.com/consensys/gnark/compare/v0.3.7...v0.3.8
-[v0.3.7]: https://github.com/consensys/gnark/compare/v0.3.6...v0.3.7
-[v0.3.6]: https://github.com/consensys/gnark/compare/v0.3.5...v0.3.6
-[v0.3.5]: https://github.com/consensys/gnark/compare/v0.3.4...v0.3.5
-[v0.3.4]: https://github.com/consensys/gnark/compare/v0.3.3...v0.3.4
-[v0.3.3]: https://github.com/consensys/gnark/compare/v0.3.1...v0.3.3
-[v0.3.1]: https://github.com/consensys/gnark/compare/v0.3.0...v0.3.1
-[v0.3.0]: https://github.com/consensys/gnark/compare/v0.3.0-alpha...v0.3.0
-[v0.3.0-alpha]: https://github.com/consensys/gnark/compare/v0.2.1-alpha...v0.3.0-alpha
-[v0.2.1-alpha]: https://github.com/consensys/gnark/compare/v0.2.0-alpha...v0.2.1-alpha
-[v0.2.0-alpha]: https://github.com/consensys/gnark/compare/v0.1.0-alpha...v0.2.0-alpha
+[Unreleased]: https://github.com/airchains-network/gnark/compare/v0.8.1...HEAD
+[v0.8.1]: https://github.com/airchains-network/gnark/compare/v0.8.0...v0.8.1
+[v0.8.0]: https://github.com/airchains-network/gnark/compare/v0.7.1...v0.8.0
+[v0.7.1]: https://github.com/airchains-network/gnark/compare/v0.6.5...v0.7.1
+[v0.6.5]: https://github.com/airchains-network/gnark/compare/v0.7.0...v0.6.5
+[v0.7.0]: https://github.com/airchains-network/gnark/compare/v0.6.4...v0.7.0
+[v0.6.4]: https://github.com/airchains-network/gnark/compare/v0.6.3...v0.6.4
+[v0.6.3]: https://github.com/airchains-network/gnark/compare/v0.6.2...v0.6.3
+[v0.6.2]: https://github.com/airchains-network/gnark/compare/v0.6.1...v0.6.2
+[v0.6.1]: https://github.com/airchains-network/gnark/compare/v0.6.0...v0.6.1
+[v0.6.0]: https://github.com/airchains-network/gnark/compare/v0.5.2...v0.6.0
+[v0.5.2]: https://github.com/airchains-network/gnark/compare/v0.5.1...v0.5.2
+[v0.5.1]: https://github.com/airchains-network/gnark/compare/v0.5.0...v0.5.1
+[v0.5.0]: https://github.com/airchains-network/gnark/compare/v0.4.0...v0.5.0
+[v0.4.0]: https://github.com/airchains-network/gnark/compare/v0.3.8...v0.4.0
+[v0.3.8]: https://github.com/airchains-network/gnark/compare/v0.3.7...v0.3.8
+[v0.3.7]: https://github.com/airchains-network/gnark/compare/v0.3.6...v0.3.7
+[v0.3.6]: https://github.com/airchains-network/gnark/compare/v0.3.5...v0.3.6
+[v0.3.5]: https://github.com/airchains-network/gnark/compare/v0.3.4...v0.3.5
+[v0.3.4]: https://github.com/airchains-network/gnark/compare/v0.3.3...v0.3.4
+[v0.3.3]: https://github.com/airchains-network/gnark/compare/v0.3.1...v0.3.3
+[v0.3.1]: https://github.com/airchains-network/gnark/compare/v0.3.0...v0.3.1
+[v0.3.0]: https://github.com/airchains-network/gnark/compare/v0.3.0-alpha...v0.3.0
+[v0.3.0-alpha]: https://github.com/airchains-network/gnark/compare/v0.2.1-alpha...v0.3.0-alpha
+[v0.2.1-alpha]: https://github.com/airchains-network/gnark/compare/v0.2.0-alpha...v0.2.1-alpha
+[v0.2.0-alpha]: https://github.com/airchains-network/gnark/compare/v0.1.0-alpha...v0.2.0-alpha

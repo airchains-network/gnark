@@ -19,8 +19,8 @@ package sw_bls24315
 import (
 	"errors"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/native/fields_bls24315"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/algebra/native/fields_bls24315"
 )
 
 // GT target group of the pairing

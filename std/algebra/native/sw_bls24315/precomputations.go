@@ -18,8 +18,8 @@ package sw_bls24315
 
 import (
 	bls24315 "github.com/consensys/gnark-crypto/ecc/bls24-315"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/native/fields_bls24315"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/algebra/native/fields_bls24315"
 )
 
 // lineEvaluation represents a sparse Fp12 Elmt (result of the line evaluation)

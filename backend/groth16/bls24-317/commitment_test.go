@@ -21,11 +21,11 @@ import (
 	"testing"
 
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/backend/witness"
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
+	"github.com/airchains-network/gnark/backend/groth16"
+	"github.com/airchains-network/gnark/backend/witness"
+	"github.com/airchains-network/gnark/constraint"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/cs/r1cs"
 	"github.com/stretchr/testify/assert"
 )
 

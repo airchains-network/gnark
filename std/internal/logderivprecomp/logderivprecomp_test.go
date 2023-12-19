@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/test"
 )
 
 type TestXORCircuit struct {

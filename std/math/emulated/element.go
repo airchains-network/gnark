@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/internal/utils"
 )
 
 // Element defines an element in the ring of integers modulo n. The integer

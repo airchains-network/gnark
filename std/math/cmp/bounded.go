@@ -2,9 +2,9 @@ package cmp
 
 import (
 	"fmt"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/math/bits"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/math/bits"
 	"math/big"
 )
 

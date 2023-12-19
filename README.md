@@ -74,9 +74,9 @@ package main
 
 import (
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
+	"github.com/airchains-network/gnark/backend/groth16"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/cs/r1cs"
 )
 
 // CubicCircuit defines a simple circuit
@@ -170,16 +170,16 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our [code of condu
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/consensys/gnark/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/airchains-network/gnark/tags).
 
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
 
-[`gnark` Issues]: https://github.com/consensys/gnark/issues
+[`gnark` Issues]: https://github.com/airchains-network/gnark/issues
 [`gnark` Playground]: https://play.gnark.io
 [`gnark` User Documentation]: https://docs.gnark.consensys.net/
-[GitHub discussions]: https://github.com/ConsenSys/gnark/discussions
+[GitHub discussions]: https://github.com/airchains-network/gnark/discussions
 [Proving schemes and curves]: https://docs.gnark.consensys.net/Concepts/schemes_curves
 [`gnark-announce`]: https://groups.google.com/g/gnark-announce
 [@gnark_team]: https://twitter.com/gnark_team

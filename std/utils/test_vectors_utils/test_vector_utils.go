@@ -2,7 +2,7 @@ package test_vector_utils
 
 import (
 	"encoding/json"
-	"github.com/consensys/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"path/filepath"

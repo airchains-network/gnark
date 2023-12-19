@@ -1,9 +1,9 @@
 package selector_test
 
 import (
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/selector"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/selector"
+	"github.com/airchains-network/gnark/test"
 	"testing"
 )
 

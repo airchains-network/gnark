@@ -28,9 +28,9 @@ import (
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/hash_to_field"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr/pedersen"
 	"github.com/consensys/gnark-crypto/utils"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/logger"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/constraint"
+	"github.com/airchains-network/gnark/logger"
 )
 
 var (
@@ -40,6 +40,17 @@ var (
 
 // Verify verifies a proof with given VerifyingKey and publicWitness
 func Verify(proof *Proof, vk *VerifyingKey, publicWitness fr.Vector, opts ...backend.VerifierOption) error {
+
+	// ! updated codes: it generate required files from vk
+	vk.G2.deltaNeg.Neg(&vk.G2.Delta)
+	vk.G2.gammaNeg.Neg(&vk.G2.Gamma)
+	var err error
+	vk.e, err = curve.Pair([]curve.G1Affine{vk.G1.Alpha}, []curve.G2Affine{vk.G2.Beta})
+	if err != nil {
+		fmt.Println(err)
+	}
+	// ! updated codes end
+
 	opt, err := backend.NewVerifierConfig(opts...)
 	if err != nil {
 		return fmt.Errorf("new verifier config: %w", err)

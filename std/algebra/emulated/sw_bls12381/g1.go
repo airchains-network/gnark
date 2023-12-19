@@ -5,9 +5,9 @@ import (
 
 	bls12381 "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	fr_bls12381 "github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_emulated"
-	"github.com/consensys/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/algebra/emulated/sw_emulated"
+	"github.com/airchains-network/gnark/std/math/emulated"
 )
 
 // G1Affine is the point in G1. It is an alias to the generic emulated affine

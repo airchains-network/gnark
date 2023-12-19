@@ -17,8 +17,8 @@
 package cs
 
 import (
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/airchains-network/gnark/constraint"
+	"github.com/airchains-network/gnark/internal/utils"
 	"math/big"
 
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr"

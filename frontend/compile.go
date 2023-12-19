@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/debug"
-	"github.com/consensys/gnark/frontend/schema"
-	"github.com/consensys/gnark/internal/circuitdefer"
-	"github.com/consensys/gnark/logger"
+	"github.com/airchains-network/gnark/constraint"
+	"github.com/airchains-network/gnark/debug"
+	"github.com/airchains-network/gnark/frontend/schema"
+	"github.com/airchains-network/gnark/internal/circuitdefer"
+	"github.com/airchains-network/gnark/logger"
 )
 
 // Compile will generate a ConstraintSystem from the given circuit

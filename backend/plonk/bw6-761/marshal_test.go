@@ -23,7 +23,7 @@ import (
 
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr/fft"
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr/iop"
-	"github.com/consensys/gnark/io"
+	"github.com/airchains-network/gnark/io"
 	"math/big"
 	"math/rand"
 	"testing"

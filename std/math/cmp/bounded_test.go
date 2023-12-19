@@ -1,9 +1,9 @@
 package cmp_test
 
 import (
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/math/cmp"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/math/cmp"
+	"github.com/airchains-network/gnark/test"
 	"math/big"
 	"testing"
 )

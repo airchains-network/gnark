@@ -17,7 +17,7 @@ package cubic
 import (
 	"testing"
 
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/test"
 )
 
 func TestCubicEquation(t *testing.T) {

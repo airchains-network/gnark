@@ -3,8 +3,8 @@ package sw_bw6761
 import (
 	bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761"
 	fr_bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761/fr"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_emulated"
-	"github.com/consensys/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/std/algebra/emulated/sw_emulated"
+	"github.com/airchains-network/gnark/std/math/emulated"
 )
 
 // G1Affine is the point in G1. It is an alias to the generic emulated affine

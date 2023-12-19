@@ -8,11 +8,11 @@ import (
 
 	"github.com/consensys/gnark-crypto/ecc"
 	bw6761 "github.com/consensys/gnark-crypto/ecc/bw6-761"
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	"github.com/consensys/gnark/frontend/cs/scs"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/constraint"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/cs/r1cs"
+	"github.com/airchains-network/gnark/frontend/cs/scs"
+	"github.com/airchains-network/gnark/test"
 )
 
 func randomG1G2Affines() (bw6761.G1Affine, bw6761.G2Affine) {

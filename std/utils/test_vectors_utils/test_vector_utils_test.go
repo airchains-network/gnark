@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/test"
 	"github.com/stretchr/testify/assert"
 )
 

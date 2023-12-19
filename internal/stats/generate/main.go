@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/internal/stats"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/internal/stats"
 )
 
 var (

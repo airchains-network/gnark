@@ -19,12 +19,12 @@ import (
 	"log"
 
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend/plonk"
-	cs "github.com/consensys/gnark/constraint/bn254"
-	"github.com/consensys/gnark/frontend/cs/scs"
+	"github.com/airchains-network/gnark/backend/plonk"
+	cs "github.com/airchains-network/gnark/constraint/bn254"
+	"github.com/airchains-network/gnark/frontend/cs/scs"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/test/unsafekzg"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/test/unsafekzg"
 )
 
 // In this example we show how to use PLONK with KZG commitments. The circuit that is

@@ -2,7 +2,7 @@ package selector
 
 import (
 	"fmt"
-	"github.com/consensys/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend"
 	"math/big"
 )
 

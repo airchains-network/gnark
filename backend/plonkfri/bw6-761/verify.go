@@ -22,7 +22,7 @@ import (
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr"
 	"github.com/consensys/gnark-crypto/ecc/bw6-761/fr/fri"
 	fiatshamir "github.com/consensys/gnark-crypto/fiat-shamir"
-	"github.com/consensys/gnark/backend"
+	"github.com/airchains-network/gnark/backend"
 	"math/big"
 )
 

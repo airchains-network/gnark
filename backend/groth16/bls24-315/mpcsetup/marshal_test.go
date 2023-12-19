@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	curve "github.com/consensys/gnark-crypto/ecc/bls24-315"
-	cs "github.com/consensys/gnark/constraint/bls24-315"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
-	gnarkio "github.com/consensys/gnark/io"
+	cs "github.com/airchains-network/gnark/constraint/bls24-315"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/cs/r1cs"
+	gnarkio "github.com/airchains-network/gnark/io"
 	"github.com/stretchr/testify/require"
 )
 

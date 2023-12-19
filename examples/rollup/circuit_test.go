@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/hash/mimc"
-	"github.com/consensys/gnark/test"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/hash/mimc"
+	"github.com/airchains-network/gnark/test"
 )
 
 type circuitSignature Circuit

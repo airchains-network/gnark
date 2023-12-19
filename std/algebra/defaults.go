@@ -3,15 +3,15 @@ package algebra
 import (
 	"fmt"
 
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_bls12381"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_bn254"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_bw6761"
-	"github.com/consensys/gnark/std/algebra/emulated/sw_emulated"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls12377"
-	"github.com/consensys/gnark/std/algebra/native/sw_bls24315"
-	"github.com/consensys/gnark/std/math/emulated"
-	"github.com/consensys/gnark/std/math/emulated/emparams"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/algebra/emulated/sw_bls12381"
+	"github.com/airchains-network/gnark/std/algebra/emulated/sw_bn254"
+	"github.com/airchains-network/gnark/std/algebra/emulated/sw_bw6761"
+	"github.com/airchains-network/gnark/std/algebra/emulated/sw_emulated"
+	"github.com/airchains-network/gnark/std/algebra/native/sw_bls12377"
+	"github.com/airchains-network/gnark/std/algebra/native/sw_bls24315"
+	"github.com/airchains-network/gnark/std/math/emulated"
+	"github.com/airchains-network/gnark/std/math/emulated/emparams"
 )
 
 // GetCurve returns the [Curve] implementation corresponding to the scalar and

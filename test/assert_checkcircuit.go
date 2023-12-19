@@ -2,15 +2,15 @@ package test
 
 import (
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/backend"
-	"github.com/consensys/gnark/backend/groth16"
-	"github.com/consensys/gnark/backend/plonk"
-	"github.com/consensys/gnark/backend/plonkfri"
-	"github.com/consensys/gnark/backend/witness"
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/schema"
-	"github.com/consensys/gnark/test/unsafekzg"
+	"github.com/airchains-network/gnark/backend"
+	"github.com/airchains-network/gnark/backend/groth16"
+	"github.com/airchains-network/gnark/backend/plonk"
+	"github.com/airchains-network/gnark/backend/plonkfri"
+	"github.com/airchains-network/gnark/backend/witness"
+	"github.com/airchains-network/gnark/constraint"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/schema"
+	"github.com/airchains-network/gnark/test/unsafekzg"
 )
 
 // CheckCircuit performs a series of check on the provided circuit.

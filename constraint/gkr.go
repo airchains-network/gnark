@@ -3,8 +3,8 @@ package constraint
 import (
 	"fmt"
 	"github.com/consensys/gnark-crypto/utils"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/std/utils/algo_utils"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/std/utils/algo_utils"
 	"sort"
 )
 

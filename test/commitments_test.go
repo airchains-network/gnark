@@ -5,16 +5,16 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/consensys/gnark/backend"
-	groth16 "github.com/consensys/gnark/backend/groth16/bn254"
-	"github.com/consensys/gnark/backend/witness"
-	cs "github.com/consensys/gnark/constraint/bn254"
-	"github.com/consensys/gnark/frontend/cs/r1cs"
+	"github.com/airchains-network/gnark/backend"
+	groth16 "github.com/airchains-network/gnark/backend/groth16/bn254"
+	"github.com/airchains-network/gnark/backend/witness"
+	cs "github.com/airchains-network/gnark/constraint/bn254"
+	"github.com/airchains-network/gnark/frontend/cs/r1cs"
 	"github.com/stretchr/testify/require"
 
 	"github.com/consensys/gnark-crypto/ecc"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/cs/scs"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/cs/scs"
 	"github.com/stretchr/testify/assert"
 )
 

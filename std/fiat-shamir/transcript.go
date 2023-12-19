@@ -20,10 +20,10 @@ import (
 	"errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/consensys/gnark/constant"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/hash"
-	"github.com/consensys/gnark/std/math/bits"
+	"github.com/airchains-network/gnark/constant"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/hash"
+	"github.com/airchains-network/gnark/std/math/bits"
 )
 
 // errChallengeNotFound is returned when a wrong challenge name is provided.

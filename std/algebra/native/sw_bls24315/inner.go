@@ -7,7 +7,7 @@ import (
 
 	"github.com/consensys/gnark-crypto/ecc"
 	bls24315 "github.com/consensys/gnark-crypto/ecc/bls24-315"
-	"github.com/consensys/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend"
 )
 
 var mappingOnce sync.Once

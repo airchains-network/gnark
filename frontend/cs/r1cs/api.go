@@ -24,17 +24,17 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/consensys/gnark/internal/utils"
+	"github.com/airchains-network/gnark/internal/utils"
 
-	"github.com/consensys/gnark/debug"
-	"github.com/consensys/gnark/frontend/cs"
+	"github.com/airchains-network/gnark/debug"
+	"github.com/airchains-network/gnark/frontend/cs"
 
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/frontend/internal/expr"
-	"github.com/consensys/gnark/frontend/schema"
-	"github.com/consensys/gnark/std/math/bits"
+	"github.com/airchains-network/gnark/constraint"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/frontend/internal/expr"
+	"github.com/airchains-network/gnark/frontend/schema"
+	"github.com/airchains-network/gnark/std/math/bits"
 )
 
 // ---------------------------------------------------------------------------------------------

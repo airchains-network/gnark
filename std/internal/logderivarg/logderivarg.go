@@ -42,10 +42,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	"github.com/consensys/gnark/std/hash/mimc"
-	"github.com/consensys/gnark/std/multicommit"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
+	"github.com/airchains-network/gnark/std/hash/mimc"
+	"github.com/airchains-network/gnark/std/multicommit"
 )
 
 func init() {

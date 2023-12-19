@@ -21,8 +21,8 @@ import (
 
 	bls12377 "github.com/consensys/gnark-crypto/ecc/bls12-377"
 
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
 )
 
 // E6 element in a quadratic extension

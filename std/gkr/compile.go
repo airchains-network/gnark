@@ -5,12 +5,12 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/consensys/gnark/constraint"
-	"github.com/consensys/gnark/constraint/solver"
-	"github.com/consensys/gnark/frontend"
-	fiatshamir "github.com/consensys/gnark/std/fiat-shamir"
-	"github.com/consensys/gnark/std/hash"
-	"github.com/consensys/gnark/std/utils/algo_utils"
+	"github.com/airchains-network/gnark/constraint"
+	"github.com/airchains-network/gnark/constraint/solver"
+	"github.com/airchains-network/gnark/frontend"
+	fiatshamir "github.com/airchains-network/gnark/std/fiat-shamir"
+	"github.com/airchains-network/gnark/std/hash"
+	"github.com/airchains-network/gnark/std/utils/algo_utils"
 )
 
 type circuitDataForSnark struct {
